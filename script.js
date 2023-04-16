@@ -73,7 +73,7 @@ function displayData(data) {
 
 async function fetchData() {
     try {
-        const response = await fetch('http://localhost:3000/fetchData');
+        const response = await fetch('https://thehousinglist.uw.r.appspot.com/fetchData');
         const data = await response.json();
         displayData(data);
     } catch (error) {

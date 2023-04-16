@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
         alert("Please fill out all fields before submitting.");
       } else {
         //todo change to real domain
-        fetch("http://localhost:3000/submit_community", {
+        fetch("https://thehousinglist.uw.r.appspot.com/submit_community", { 
           method: "POST",
           headers: {
             "Content-Type": "application/json",
