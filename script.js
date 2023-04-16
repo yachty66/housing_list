@@ -33,12 +33,16 @@ function displayData(data) {
     data.forEach(record => {
       const row = document.createElement('tr');
   
-      ['Name', 'Link', 'Status', 'City'].forEach(key => {
+      ['Name', 'Status', 'City'].forEach(key => {
         const cell = createCell(record[key] || '');
         row.appendChild(cell);
       });
+
+      // Add the link cell using createLinkCell function
+      const linkCell = createLinkCell(record['Link'] || '');
+      row.appendChild(linkCell);
   
-      const email = 'janjackson568@gmail.com ';
+      const email = 'janjackson568@gmail.com';
       const subject = `Edit request for ${record.Name || 'Unknown Community'}`;
       const body = `Hello, I would like to request an edit for the following community: ${record.Name}.\n\nHere are the changes I propose:`;
       const mailto = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
@@ -56,7 +60,8 @@ function displayData(data) {
   
     table.appendChild(tbody);
     document.body.appendChild(table);
-  }
+}
+
   
 
 async function fetchData() {

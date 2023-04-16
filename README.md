@@ -9,12 +9,20 @@
 - [x] create a header 
 - [x] create a one liner for what the list is  
 - [x] add a one liner on how to contribute
-
-- [ ] make links clickable 
-- [ ] add form   
-- [ ] create table like in ml contests
+- [x] make links clickable 
+- [x] add all missing data to airtable 
+- [ ] add script to separate file 
+- [ ] bring link status and city in order
+- [ ] make design maximum appealing
+- [ ] add logo 
 - [ ] make is mobile
+- [ ] deploy server
+- [ ] test with new server setup 
+- [ ] connect with domain
 - [ ] add google anaylytics to side
+- [ ] next steps  
+
+
 
 ## notes 
 
