@@ -8,6 +8,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Housing List</title>
     <link rel="stylesheet" href="styles.css" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-4ZDYDHGJ3G"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-4ZDYDHGJ3G");
+    </script>
   </head>
   <body>
     <h1>The Housing List</h1>
@@ -34,7 +47,9 @@
         <label for="city">City:</label>
         <input type="text" id="city" name="city" />
       </div>
-      <button type="submit" class="submit-button">Add a new intentional community</button>
+      <button type="submit" class="submit-button">
+        Add a new intentional community
+      </button>
     </form>
     <script src="main.js"></script>
   </body>
