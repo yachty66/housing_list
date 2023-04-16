@@ -12,7 +12,7 @@
 - [x] make links clickable 
 - [x] add all missing data to airtable 
 - [x] add script to separate file 
-- [ ] bring link status and city in order
+- [x] bring link status and city in order
 - [ ] make design maximum appealing
 - [ ] add logo 
 - [ ] make is mobile
