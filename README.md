@@ -13,7 +13,7 @@
 - [x] add all missing data to airtable 
 - [x] add script to separate file 
 - [x] bring link status and city in order
-- [ ] make design maximum appealing
+- [x] make design maximum appealing
 - [ ] add logo 
 - [ ] make is mobile
 - [ ] deploy server
