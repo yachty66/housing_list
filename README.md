@@ -14,7 +14,7 @@
 - [x] add script to separate file 
 - [x] bring link status and city in order
 - [x] make design maximum appealing
-- [ ] add logo 
+- [x] add logo 
 - [ ] make is mobile
 - [ ] deploy server
 - [ ] test with new server setup 

@@ -144,3 +144,45 @@ a:hover {
 .submit-button:focus {
   outline: none;
 }
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  h1,
+  p {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .form-container {
+    flex-direction: column;
+  }
+
+  .form-field {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+
+  .form-field label {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* Table container for mobile responsiveness */
+.table-container {
+  overflow-x: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%; /* Add this line to set the width of the container */
+  max-width: 1200px; /* Add this line to set the maximum width of the container */
+}
+
+table {
+  width: 100%; /* Change this line from 90% to 100% */
+  border-collapse: collapse;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}

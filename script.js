@@ -15,7 +15,11 @@ function createLinkCell(link) {
 }
 
 function displayData(data) {
+    const tableContainer = document.createElement('div');
+    tableContainer.classList.add('table-container');
+
     const table = document.createElement('table');
+
     const thead = document.createElement('thead');
     const headerRow = document.createElement('tr');
 
@@ -60,7 +64,8 @@ function displayData(data) {
     });
 
     table.appendChild(tbody);
-    document.body.appendChild(table);
+    tableContainer.appendChild(table);
+    document.body.appendChild(tableContainer);
 }
 
 
