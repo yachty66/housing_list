@@ -11,7 +11,7 @@
 - [x] add a one liner on how to contribute
 - [x] make links clickable 
 - [x] add all missing data to airtable 
-- [ ] add script to separate file 
+- [x] add script to separate file 
 - [ ] bring link status and city in order
 - [ ] make design maximum appealing
 - [ ] add logo 
