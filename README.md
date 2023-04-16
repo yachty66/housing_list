@@ -1,38 +1,25 @@
-# housing_list
+# The Housing List
 
+This application serves as a directory for intentional communities, allowing users to browse and submit information about various communities, including their names, links, statuses, and locations. The application is built using a Python back-end server and a JavaScript-based front-end.
 
+## Features
 
-## tasks
+- Browse a list of intentional communities with their details, such as name, link, status, and location.
+- Submit a new intentional community to the directory (subject to validation by the maintainer).
+- Request edits to existing community information.
 
-- [x] display all my airtable data
-- [x] display only name, link, status and city - centered in table style with respective headers
-- [x] create a header 
-- [x] create a one liner for what the list is  
-- [x] add a one liner on how to contribute
-- [x] make links clickable 
-- [x] add all missing data to airtable 
-- [x] add script to separate file 
-- [x] bring link status and city in order
-- [x] make design maximum appealing
-- [x] add logo 
-- [x] make is mobile
-- [ ] deploy server
-- [ ] test with new server setup 
-- [ ] connect with domain
-- [ ] add google anaylytics to side
-- [ ] next steps  
+## How to Use
 
+Visit [thehousinglist.org](https://thehousinglist.org/) to start using the application.
 
+1. Browse the list of communities displayed on the main page.
+2. To submit a new intentional community, fill out the form at the top of the page with the community's name, link, status, and location, and click "Add a new intentional community."
+3. To request edits to an existing community, click the "Request Edit" link in the "Actions" column of the table. This will open an email template with the maintainer's email address and a pre-filled subject line and body. Edit the email body to include the proposed changes and send the email.
 
-## notes 
+## Contributions
 
-now i can make is nice. create a header 
+While this application is primarily intended for web usage, if you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request on the GitHub repository.
 
+## License
 
-- render the air table 
-- button to a form where a user can add a basic form with all necessary information after that user can submit and it will be automatically added in the airtable but with a pending field if the field. if field is set to approved it will be rendered on the website
-
-
-
-- outreach
-    - contact jason eventually and ask him if he has some information which can be added.
+This project is licensed under the [MIT License](LICENSE).
