@@ -15,7 +15,7 @@
 - [x] bring link status and city in order
 - [x] make design maximum appealing
 - [x] add logo 
-- [ ] make is mobile
+- [x] make is mobile
 - [ ] deploy server
 - [ ] test with new server setup 
 - [ ] connect with domain
